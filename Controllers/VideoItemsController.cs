@@ -9,7 +9,7 @@ using VideoServiceApiApp.Models;
 
 namespace VideoServiceApiApp.Controllers
 {
-    [Route("api/[VideoItems]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class VideoItemsController : ControllerBase
     {
@@ -101,7 +101,7 @@ namespace VideoServiceApiApp.Controllers
 
         // DELETE: api/VideoItems/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<VideoItem>> DeleteVideoItem(long id)
+        public async Task<IActionResult> DeleteVideoItem(long id)
         {
             var videoItem = await _context.VideoItems.FindAsync(id);
 
