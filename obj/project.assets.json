@@ -8236,7 +8236,7 @@
       "outputPath": "/Users/heli/Projects/video-service-api-app/video-service-api-app/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/heli/.nuget/NuGet/NuGet.Config"
+        "/Users/heli/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
